@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M^++ | Creative Developer Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- HTML Code Start -->
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">My portfolio</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>              
+                <a href="#work">Work</a>
+                <a href="#process">Process</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Profile Picture on the Left -->
+                <div class="hero-left">
+                    <div class="hero-profile-pic-container">
+                        <!-- REPLACE 'profile.jpg' with your actual image file name -->
+                        <img src="avatar.png" alt="Meron Alemu" class="hero-profile-pic">
+                    </div>
+                </div>
+                <!-- Text Content on the Right -->
+                <div class="hero-right">
+                    <h1 class="greeting">Hi, I'm</h1>
+                    <h1 class="name-title">Meron Alemu</h1>
+                    <h2 class="role-title">Creative Developer</h2>
+                    <p class="description">
+                        I craft immersive digital experiences with cutting-edge technologies and innovative design principles.
+                    </p>
+                    <a href="#work" class="btn primary-btn">View My Work</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <p>SCROLL DOWN</p>
+                <i class="fas fa-chevron-down"></i> 
+ 
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Work Section -->
+     <!-- Work Section -->
+    <section id="work" class="work-section section-padding">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <p class="project-number">Project 1</p>
+                    <h3>Project Alpha</h3>
+                    <p class="project-description">
+                        A revolutionary web application that streamlines workflow management for creative teams.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <a href="#" class="btn secondary-btn">View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card gradient-border">
+                    <p class="project-number">Project 2</p>
+                    <h3>Project Beta</h3>
+                    <p class="project-description">
+                        An interactive data visualization platform that transforms complex datasets into intuitive visual stories.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">D3.js</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                    </div>
+                    <a href="#" class="btn secondary-btn">View Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <p class="project-number">Project 3</p>
+                    <h3>Project Gamma</h3>
+                    <p class="project-description">
+                        A mobile-first e-commerce solution with AI-driven personalization and seamless payment integration.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">React Native</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Stripe</span>
+                    </div>
+                    <a href="#" class="btn secondary-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+        <!-- Process Section -->
+    <section id="process" class="process-section section-padding">
+        <div class="container">
+            <h2>My Process</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Discover</h3>
+                    <p>Deep dive into understanding your vision, goals, and target audience to define the project's core objectives.</p>
+                </div>
+                <div class="process-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Create wireframes, prototypes, and visual designs that balance aesthetics with functionality and user experience.</p>
+                </div>
+                <div class="process-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Develop</h3>
+                    <p>Build responsive, performant, and scalable solutions using modern technologies and best practices.</p>
+                </div>
+                <div class="process-card">
+                    <div class="icon-circle">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Launch</h3>
+                    <p>Deploy, test, and optimize your project, followed by continuous support and iteration based on feedback.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-text">
+               Hello! I'm Meron Alemu, a passionate Creative Developer with a knack for building engaging and
+                    user-friendly web experiences.
+                </p>
+                <p>
+                    My journey in web development began with a fascination for how websites work, evolving into a
+                    dedication to mastering modern technologies like React, Node.js, and various design principles.
+                    I thrive on challenges and continuously seek to learn and implement the latest industry trends.
+                </p>
+                <p>
+                    When I'm not coding, you can find me exploring new tech gadgets, sketching,and reading.
+                    I believe in the power of collaboration and am always excited to work on projects that make a real impact.
+                </p>
+                <a href="#contact" class="btn primary-btn">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+         <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>meronalemu109@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Addis Abeba, Ethiopia</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+251 903544360</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+               <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a> 
+                <!-- Add more social links as needed -->
+            </div>
+            <p>&copy; 2025 My portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- HTML Code End -->
+
+    <!-- Link to your JavaScript file -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
